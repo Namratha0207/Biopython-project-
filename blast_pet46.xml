@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>nr</BlastOutput_db>
+  <BlastOutput_query-ID>Query_2012787</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>262</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_2012787</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>262</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|8B4U|A</Hit_id>
+  <Hit_def>Chain A, Alpha/beta hydrolase [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>8B4U_A</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>525.783</Hsp_bit-score>
+      <Hsp_score>1353</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_hseq>
+      <Hsp_midline>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gb|RLI42440.1|</Hit_id>
+  <Hit_def>MAG: alpha/beta hydrolase [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>RLI42440</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>525.398</Hsp_bit-score>
+      <Hsp_score>1352</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>262</Hsp_identity>
+      <Hsp_positive>262</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_hseq>
+      <Hsp_midline>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gb|RJS94233.1|</Hit_id>
+  <Hit_def>MAG: alpha/beta fold hydrolase [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>RJS94233</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>406.757</Hsp_bit-score>
+      <Hsp_score>1044</Hsp_score>
+      <Hsp_evalue>1.27564e-140</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>191</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>MIKPVTFTNDGEQIVGMLHVPRSLKEGERAPAIVMLHGFTGHKSEAHRLFVHVAKSLCNAGFVVLRFDFRGSGDSDGEFEDMTIPVEVSDAARAVDFVLGLDIVDLGKIGVIGLSMGGRVAAILASKDKRVKFVILYSAALAPLKDKLLKNLEKNDLEKLEKGEAAHMGNGWYLKKTFFESVDSPVPFEILDKIRIPVLIIHGDSDNVVPLEGAKKGYEILKGLNSKNELYIVKGGDHVFIRKEHTQEVIEKTLDWLSSLDM</Hsp_hseq>
+      <Hsp_midline>MIKPVTF ++GEQI+G+LHVP  L+  +RAPAI M HGFTG+KSEAHRLFVHVA+SLCN GFVVLRFDFRGSGDSDGEFEDMT+P EV DA+R++DF+  L+ VD  +IGV+GLSMGGRVAAILASKD+R+KFVILYSAAL PL+ K L+ LEK  + +LE GEA H+GNGWYLKK FFE+VDS VP ++LD+IR+PVLIIHGDSD+V+PL+GA KGYEI++ LN KNELYIV+GGDHVF R+EHT EVIE+TLDWL SL++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>tpg|HDO42343.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>HDO42343</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>391.734</Hsp_bit-score>
+      <Hsp_score>1005</Hsp_score>
+      <Hsp_evalue>2.44954e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>LIKPVTFENKGQQIIGILHTPDALKSGKKAPGIVMFHGFTGNKTEAHRLFVHVARSLSEAGFIVLRFDFRGSGDSDGEFEDMTVPDEVSDAEKALTFLMEQENVDEERVGILGLSMGGRVAAILASKDRRLKFAILYSPALGPLKERFFSQMSKEKLEKLDSGEPIEVSSGWYLKKKFFETVDYIVPLNIMDRIEVPVLIVHSDKDEIIPLEEALRGYELIKDLNEKNELYVVKGGDHTFSKREHTLEVIRKTLDWINSLNL</Hsp_hseq>
+      <Hsp_midline>+IKPVTF ++G+QIIG+LH PD L+  K+AP I MFHGFTGNK+EAHRLFVHVARSL   GF+VLRFDFRGSGDSDGEFEDMTVP EV DA +++ FL E   VD ER+G+LGLSMGGRVAAILASKDRR+KF ILYS AL PL+ +F   + KE + +L+ GE + V +GWYLKK FFETVD IVPL+++DRI VPVLI+H D D +IPL+ AL+GYE+I+DLN+KNELY+V+GGDH F++REHT+EVI +TLDW+ SLNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gb|MCD6469823.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>MCD6469823</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>390.193</Hsp_bit-score>
+      <Hsp_score>1001</Hsp_score>
+      <Hsp_evalue>4.91493e-134</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>264</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>LIKPVTFENRGQQMIGILHTPDALKSGKKAPGIVMFHGFTGNKTEAHRLFVHVARSLSEAGFIVLRFDFRGSGDSDGEFEDMTVPDEVSDAEKALTFLMEQENVDEERVGILGLSMGGRVAAILASKDRRVKFAILYSPALGPLKERFFSQMSREKLEKLDSGEPIEVSSGWYLKKKFFETVDYIVPLNIMDRIEVPVLIVHSDKDEIIPLEEALKGYELIKDLNEKNELYVVKGGDHTFSKREHTLEVIRKTLDWINSLNL</Hsp_hseq>
+      <Hsp_midline>+IKPVTF + G+Q+IG+LH PD L+  K+AP I MFHGFTGNK+EAHRLFVHVARSL   GF+VLRFDFRGSGDSDGEFEDMTVP EV DA +++ FL E   VD ER+G+LGLSMGGRVAAILASKDRR+KF ILYS AL PL+ +F   + +E + +L+ GE + V +GWYLKK FFETVD IVPL+++DRI VPVLI+H D D +IPL+ ALKGYE+I+DLN+KNELY+V+GGDH F++REHT+EVI +TLDW+ SLNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gb|RJS85787.1|</Hit_id>
+  <Hit_def>MAG: alpha/beta fold hydrolase [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>RJS85787</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>384.8</Hsp_bit-score>
+      <Hsp_score>987</Hsp_score>
+      <Hsp_evalue>8.82487e-132</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDL-RGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSL</Hsp_qseq>
+      <Hsp_hseq>MIKPVVFENEGEYIVGILHMPDGLGKGEKTAPAVVMLHGFTGHKSEAHRLFVHVARALCNAGFIVLRFDFRGSGDSDGEFEDMTVLREVSDASRAISFLLSFPYTDPERIGVIGLSMGGRVAAIIASRDKRIKFIVLYSAALIPLRKKFLSLLKKEDWKRLEEGEAISIGGGWYLRKPFFETLDSPTPLQILDKIKVPVLMIHGDSDEVIPLEESIKGYEMLKKLNRKNELYIIKGGDHTFTEKKHTREVIEKTLNWLNSL</Hsp_hseq>
+      <Hsp_midline>MIKPV F +EGE I+G+LH+PD L +G+K APA+ M HGFTG+KSEAHRLFVHVAR+LCN GF+VLRFDFRGSGDSDGEFEDMTV  EV DASR+I FL    + D ERIGV+GLSMGGRVAAI+AS+D+RIKF++LYSAAL PLR+KFL  L+KE  +RLE GEA+ +G GWYL+K FFET+DS  PL +LD+I+VPVL+IHGDSD VIPL+ ++KGYE+++ LN KNELYI++GGDH FT ++HT EVIE+TL+WL SL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gb|MEM1507507.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM1997011.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM2152637.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM2314153.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM2434291.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MEM1507507</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.933</Hsp_bit-score>
+      <Hsp_score>951</Hsp_score>
+      <Hsp_evalue>1.65346e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>MIRPVAFKNKGQQIIGILHKPDNIKPHEKVPGIVMFHGFTGNRSEAHRLFVQIARGLSSYGFIVLRFDFRGSGDSDGDFEDMTLPEEVSDAERAVTFLLRQRNVDGERVGVIGLSMGGRVAAILASKDERIKFAVLYSPALSPLKERFLSLMNKEALRRLESGEPIEVSSGWYLKKAFFETIDYVVPLDIMGKIRVPILIIHGDRDEVIPVEESVKAYERIKGLNEKNELYIVKGGDHTFSKREHTLEVLKKTVEWLNSLNL</Hsp_hseq>
+      <Hsp_midline>MI+PV F ++G+QIIG+LH PD+++  ++ P I MFHGFTGN+SEAHRLFV +AR L + GF+VLRFDFRGSGDSDG+FEDMT+P EV DA R++ FL     VD ER+GV+GLSMGGRVAAILASKD RIKF +LYS AL+PL+ +FL  + KE++RRLE GE + V +GWYLKK FFET+D +VPLD++ +IRVP+LIIHGD D VIP++ ++K YE I+ LN+KNELYIV+GGDH F++REHT+EV+++T++WL SLNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gb|MBS7656304.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeota archaeon] &gt;gb|MEM2888617.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM3014182.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MBS7656304</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.785</Hsp_bit-score>
+      <Hsp_score>961</Hsp_score>
+      <Hsp_evalue>5.80728e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>MIKPVSFTNHGQQLVGILHVPDNLFPDQKAPAIAMFHGFTGHKSEAHRFFVQIARALCKAGFVVLRFDFRGSGDSDGDFEDMTVPGEVSDAEQALTFLSSLPEVDDKLIGVIGLSMGGRVASILASKDNRVKYVVLYSAALAPLKQMFEGMVRSEKLELLKRGESVSLNNGWYLKKPFFDTLDETVPYDVMDKIKAPVLIVHGDSDQTVPLKVALRGYEIIKGLNDKNKLHIVKGGDHVFTLKEHTAEVIKETVDWLKSLDL</Hsp_hseq>
+      <Hsp_midline>MIKPV+F + G+Q++G+LHVPD+L  D++APAIAMFHGFTG+KSEAHR FV +AR+LC  GFVVLRFDFRGSGDSDG+FEDMTVPGEV DA +++ FLS L  VD + IGV+GLSMGGRVA+ILASKD R+K+V+LYSAAL PL++ F   +  E +  L+ GE+V + NGWYLKK FF+T+D  VP DV+D+I+ PVLI+HGDSD  +PL  AL+GYEII+ LNDKN+L+IV+GGDHVFT +EHT EVI+ T+DWL+SL+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gb|MEM2969980.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MEM2969980</Hit_accession>
+  <Hit_len>399</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>374.785</Hsp_bit-score>
+      <Hsp_score>961</Hsp_score>
+      <Hsp_evalue>5.93548e-126</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>173</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>MIKPVSFTNHGQQLVGILHVPDNLFPDQKAPAIAMFHGFTGHKSEAHRFFVQIARALCKAGFVVLRFDFRGSGDSDGDFEDMTVPGEVSDAEQALTFLSSLPEVDDKLIGVIGLSMGGRVASILASKDNRVKYVVLYSAALAPLKQMFEGMVRSEKLELLKRGESVSLNNGWYLKKPFFDTLDETVPYDVMDKIKAPVLIVHGDSDQTVPLKVALRGYEIIKGLNDKNKLHIVKGGDHVFTLKEHTAEVIKETVDWLKSLDL</Hsp_hseq>
+      <Hsp_midline>MIKPV+F + G+Q++G+LHVPD+L  D++APAIAMFHGFTG+KSEAHR FV +AR+LC  GFVVLRFDFRGSGDSDG+FEDMTVPGEV DA +++ FLS L  VD + IGV+GLSMGGRVA+ILASKD R+K+V+LYSAAL PL++ F   +  E +  L+ GE+V + NGWYLKK FF+T+D  VP DV+D+I+ PVLI+HGDSD  +PL  AL+GYEII+ LNDKN+L+IV+GGDHVFT +EHT EVI+ T+DWL+SL+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gb|MEM2526773.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MEM2526773</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.622</Hsp_bit-score>
+      <Hsp_score>945</Hsp_score>
+      <Hsp_evalue>1.35329e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVH-VGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>MIRPVTFRNMNQQIIGILHTPDNIRLDEKVPGILMFHGFTGNKTEAHRLFVHVARSLSEHGFIVLRFDFRGSGDSDGEFEDMTLPGEVSDAERALTFLLRQRNVDKNRIGVIGLSMGGRVAAILASKDRRVKFAVLYSPALGPLRDRSLSFMSKEKIERLNSGEAVEFFAEGWYIKKAFFETVDYIVPLDIMDSIKVPVLIVHGDKDPLIPVGEAIRAYEKIKGVNEKNELYIVRGGDHTFSKKEHTLEVIKKTLDWIRSLGI</Hsp_hseq>
+      <Hsp_midline>MI+PVTF +  +QIIG+LH PD++R D++ P I MFHGFTGNK+EAHRLFVHVARSL   GF+VLRFDFRGSGDSDGEFEDMT+PGEV DA R++ FL     VD  RIGV+GLSMGGRVAAILASKDRR+KF +LYS AL PLR + L  + KE I RL  GEAV     GWY+KK FFETVD IVPLD++D I+VPVLI+HGD D +IP+  A++ YE I+ +N+KNELYIVRGGDH F+++EHT+EVI++TLDW+RSL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gb|MEM3591012.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM3645365.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM3756756.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MEM3591012</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.622</Hsp_bit-score>
+      <Hsp_score>945</Hsp_score>
+      <Hsp_evalue>1.49682e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>MIRPVAFRNKGQQIIGVLHKPDNIKPHEKVPGIVMFHGFTGNRSEAHRLFVQIARGLSSCGFAVLRFDFRGSGDSDGDFEDMTLPEEVSDAERAVTFLLRQRNVDRERIGVIGLSMGGRVAAILASKDKRIKFAVLYSPALSPLKERFLSLMSKEALGRLESGEPIEVSSGWYLKKAFFETIDYIVPLDIMGKIRVPVLIIHGDRDEVIPVEESVKAYERVKGLNEKNELYIVKGGDHTFSKREHTLEVLKKTIEWLNSLNL</Hsp_hseq>
+      <Hsp_midline>MI+PV F ++G+QIIGVLH PD+++  ++ P I MFHGFTGN+SEAHRLFV +AR L + GF VLRFDFRGSGDSDG+FEDMT+P EV DA R++ FL     VD ERIGV+GLSMGGRVAAILASKD+RIKF +LYS AL+PL+ +FL  + KE++ RLE GE + V +GWYLKK FFET+D IVPLD++ +IRVPVLIIHGD D VIP++ ++K YE ++ LN+KNELYIV+GGDH F++REHT+EV+++T++WL SLNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gb|MBS7648674.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeota archaeon] &gt;gb|MEM1582108.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM2514105.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MBS7648674</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.622</Hsp_bit-score>
+      <Hsp_score>945</Hsp_score>
+      <Hsp_evalue>1.91306e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>MIRPVVFWNEGQQIIGILHSPDNIRPGEKLPGIVMFHGFTGNKSEAHRLFVNVARSLSNSGFIVLRFDFRGSGDSDGDFEDMTLPGEVSDAERALTFLLKQRNIDKERVGVIGLSMGGRVAAILASSDRRVKFAVLYSPALGPLKERFLQFMNREILEKLNSGESIEVSAGWYLKKAFFDTVDYKVPLKVMRDIKVPTLIIHGDKDELIPVEEALKGYEVIKDLNEKNEIYIVKGGDHTFSKKEHTLEVIRKTLNWINSLDF</Hsp_hseq>
+      <Hsp_midline>MI+PV F +EG+QIIG+LH PD++R  ++ P I MFHGFTGNKSEAHRLFV+VARSL N GF+VLRFDFRGSGDSDG+FEDMT+PGEV DA R++ FL +   +D ER+GV+GLSMGGRVAAILAS DRR+KF +LYS AL PL+ +FL+ + +E + +L  GE++ V  GWYLKK FF+TVD  VPL V+  I+VP LIIHGD D +IP++ ALKGYE+I+DLN+KNE+YIV+GGDH F+++EHT+EVI +TL+W+ SL+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gb|MEM2092412.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MEM2092412</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>368.237</Hsp_bit-score>
+      <Hsp_score>944</Hsp_score>
+      <Hsp_evalue>2.31414e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVH-VGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>MIRPVTFRNMNQQIIGILHTPDNIRLDEKVPGILMFHGFTGNKTEAHRLFVHVARSLSEHGFIVLRFDFRGSGDSDGEFEDMTLPGEVSDAERALTFLLRQRNVDKNRVGVIGLSMGGRVAAILASKDRRVKFAVLYSPALGPLRDRSLSFMSKEKIERLNSGEAVEFFAEGWYIKKAFFETVDYIVPLDIMDSIKVPVLIVHGDKDPLIPVGEAIRAYEKIKGVNEKNELYIVRGGDHTFSKKEHTLEVIKKTLDWIRSLGI</Hsp_hseq>
+      <Hsp_midline>MI+PVTF +  +QIIG+LH PD++R D++ P I MFHGFTGNK+EAHRLFVHVARSL   GF+VLRFDFRGSGDSDGEFEDMT+PGEV DA R++ FL     VD  R+GV+GLSMGGRVAAILASKDRR+KF +LYS AL PLR + L  + KE I RL  GEAV     GWY+KK FFETVD IVPLD++D I+VPVLI+HGD D +IP+  A++ YE I+ +N+KNELYIVRGGDH F+++EHT+EVI++TLDW+RSL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gb|MBS7653569.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>MBS7653569</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.851</Hsp_bit-score>
+      <Hsp_score>943</Hsp_score>
+      <Hsp_evalue>2.63906e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSL</Hsp_qseq>
+      <Hsp_hseq>MIKPLAFKNQGQQLIGILHIPDELKSGMKAPGILMLHGFTGNRTEAHRLFVHVARSLCDSGYVVLRFDFRGSGDSDGEFEDMTLPGEVSDAERALAFLMRQRCVDRERVGVIGLSMGGRVAAILTSLDGRVKFAVLYSPALGSLGERFLSQASKEALEKLNSGESIEIPGGWYLKKAFFDTVDYIVPLDIMGGIKVPILIVHGDKDEVIPLEEAKKGYEVIRDLNEKNELYVVKGGDHTFSKREHTLEVIEKTLKWINTL</Hsp_hseq>
+      <Hsp_midline>MIKP+ F ++G+Q+IG+LH+PD+L+   +AP I M HGFTGN++EAHRLFVHVARSLC+ G+VVLRFDFRGSGDSDGEFEDMT+PGEV DA R++ FL     VD ER+GV+GLSMGGRVAAIL S D R+KF +LYS AL  L  +FL    KE++ +L  GE++ +  GWYLKK FF+TVD IVPLD++  I+VP+LI+HGD D VIPL+ A KGYE+IRDLN+KNELY+V+GGDH F++REHT+EVIE+TL W+ +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gb|RJS76164.1|</Hit_id>
+  <Hit_def>MAG: alpha/beta fold hydrolase [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>RJS76164</Hit_accession>
+  <Hit_len>403</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>372.859</Hsp_bit-score>
+      <Hsp_score>956</Hsp_score>
+      <Hsp_evalue>3.56158e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>222</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>MIKPITFTNKGQQVIGMLHLPDKLKPGEKTPAITMFHGFTGNKSESHRFFVHVARALCRNGFTVLRFDFRGSGDSDGEFEDMTVPGELSDAEASLSYLSSLSFVDENRLGIIGLSMGGRVAAVLASKDRRVKFAILYSAALSPLRQRFLSGIDKASLEKLNKGEAIRLSSGWYLKKPFFDTLDSPVPYDVMGSIKCPVLIVHGDADQVVPVQTAIKGYNIIKNLNGKNELHIVKGGDHVFSLKEHTQEVIAKTVKWLKTLQL</Hsp_hseq>
+      <Hsp_midline>MIKP+TF ++G+Q+IG+LH+PD L+  ++ PAI MFHGFTGNKSE+HR FVHVAR+LC +GF VLRFDFRGSGDSDGEFEDMTVPGE+ DA  S+ +LS L+FVD  R+G++GLSMGGRVAA+LASKDRR+KF ILYSAAL+PLR++FL G++K S+ +L  GEA+ + +GWYLKK FF+T+DS VP DV+  I+ PVLI+HGD+D V+P+  A+KGY II++LN KNEL+IV+GGDHVF+ +EHT EVI +T+ WL++L L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gb|MEM2424107.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM2701580.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM2960031.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MEM2424107</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.851</Hsp_bit-score>
+      <Hsp_score>943</Hsp_score>
+      <Hsp_evalue>4.01027e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>LIRPVVFWNEGQQIIGILHSPDNIRPGEKLPGIVMFHGFTGNKSEAHRLFVNVARSLSNSGFIVLRFDFRGSGDSDGDFEDMTLPGEVSDAERALTFLLKQRNIDKERVGVIGLSMGGRVAAILASSDRRVKFAVLYSPALGPLKERFLQFMNREILEKLNSGESIEVSAGWYLKKAFFDTVDYKVPLKVMRDIKVPTLIIHGDKDELIPVEEALKGYEVIKDLNEKNEIYIVKGGDHTFSKKEHTLEVIRKTLNWINSLDF</Hsp_hseq>
+      <Hsp_midline>+I+PV F +EG+QIIG+LH PD++R  ++ P I MFHGFTGNKSEAHRLFV+VARSL N GF+VLRFDFRGSGDSDG+FEDMT+PGEV DA R++ FL +   +D ER+GV+GLSMGGRVAAILAS DRR+KF +LYS AL PL+ +FL+ + +E + +L  GE++ V  GWYLKK FF+TVD  VPL V+  I+VP LIIHGD D +IP++ ALKGYE+I+DLN+KNE+YIV+GGDH F+++EHT+EVI +TL+W+ SL+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gb|MEM2913117.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MEM2913117</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.466</Hsp_bit-score>
+      <Hsp_score>942</Hsp_score>
+      <Hsp_evalue>4.17983e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSL</Hsp_qseq>
+      <Hsp_hseq>MIKPLAFKNQGQQLIGILHIPDELKSGMKAPGILMLHGFTGNRTEAHRLFVHVARSLCDSGYVVLRFDFRGSGDSDGEFEDMTLPGEVSDAERALAFLMRQRCVDRERVGVIGLSMGGRVAAILTSLDGRVKFAVLYSPALGSLGERFLSQASKEALEKLNSGESIEIPGGWYLKKAFFDTVDYIIPLDIMGGIKVPILIVHGDKDEVIPLEEAKKGYEVIRDLNEKNELYVVKGGDHTFSKREHTLEVIEKTLKWINTL</Hsp_hseq>
+      <Hsp_midline>MIKP+ F ++G+Q+IG+LH+PD+L+   +AP I M HGFTGN++EAHRLFVHVARSLC+ G+VVLRFDFRGSGDSDGEFEDMT+PGEV DA R++ FL     VD ER+GV+GLSMGGRVAAIL S D R+KF +LYS AL  L  +FL    KE++ +L  GE++ +  GWYLKK FF+TVD I+PLD++  I+VP+LI+HGD D VIPL+ A KGYE+IRDLN+KNELY+V+GGDH F++REHT+EVIE+TL W+ +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gb|MBS7639053.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeota archaeon] &gt;gb|MEM1543092.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM2248010.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM2308937.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM2401132.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MBS7639053</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.466</Hsp_bit-score>
+      <Hsp_score>942</Hsp_score>
+      <Hsp_evalue>4.7667e-125</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVH-VGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>MIRPVTFRNMNQQIIGILHTPDNIRLNEKVPGILMFHGFTGNKTEAHRLFVHVARSLSEHGFIVLRFDFRGSGDSDGEFEDMTLPGEVSDAERALTFLLRQRNVDKNRIGVIGLSMGGRVAAILASKDRRVKFAVLYSPALGPLRDRSLSFMSKEKIERLNSGEAVEFFAEGWYIKKAFFETVDYIVPLDIMDSIKVPVLIVHGDKDPLIPVGEAIRAYEKIKGVNEKNELYIVRGGDHTFSKKEHTLEVIKKTLDWIRSLGI</Hsp_hseq>
+      <Hsp_midline>MI+PVTF +  +QIIG+LH PD++R +++ P I MFHGFTGNK+EAHRLFVHVARSL   GF+VLRFDFRGSGDSDGEFEDMT+PGEV DA R++ FL     VD  RIGV+GLSMGGRVAAILASKDRR+KF +LYS AL PLR + L  + KE I RL  GEAV     GWY+KK FFETVD IVPLD++D I+VPVLI+HGD D +IP+  A++ YE I+ +N+KNELYIVRGGDH F+++EHT+EVI++TLDW+RSL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gb|MEM2342299.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM2431488.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM2569720.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM4981258.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MEM2342299</Hit_accession>
+  <Hit_len>265</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>365.54</Hsp_bit-score>
+      <Hsp_score>937</Hsp_score>
+      <Hsp_evalue>2.31652e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>MIKPVTFKNEGQQIVGILHMPDNIKPGEKFPGVVMFHGFTGNKTEAHRLFVKVAKSLSESGFIVLRFDFRGSGDSDGEFEDTTLPGEVSDAERALTFLLRRRNTDRERVGVIGLSMGGRVAAILASKDERIKFAILYSPALGPLRNALLSRMNRENLDKLDSGELIELWAGWYLRKAFFDTVDYIVPLDIMDRIKVPTLIIHGDKDEVIPIELSIRGYEIIKGLNERNELYIVKGGDHVFSKKEHMMEVIKKTIEWIRSLNL</Hsp_hseq>
+      <Hsp_midline>MIKPVTF +EG+QI+G+LH+PD+++  ++ P + MFHGFTGNK+EAHRLFV VA+SL   GF+VLRFDFRGSGDSDGEFED T+PGEV DA R++ FL      D ER+GV+GLSMGGRVAAILASKD RIKF ILYS AL PLR   L  + +E++ +L+ GE + +  GWYL+K FF+TVD IVPLD++DRI+VP LIIHGD D VIP++ +++GYEII+ LN++NELYIV+GGDHVF+++EH +EVI++T++W+RSLNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gb|MEM2129771.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MEM2129771</Hit_accession>
+  <Hit_len>402</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>370.548</Hsp_bit-score>
+      <Hsp_score>950</Hsp_score>
+      <Hsp_evalue>3.19448e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>220</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>MIKPVSFTNHGQQLVGILHVPDNLFPDQKAPAIAMFHGFTGHKSEAHRFFVQIARALCKAGFVVLRFDFRGSGDSDGDFEDMTVPGEVSDAEQALTFLSSFPEVDDKLIGVIGLSMGGRVASILASRDNRVKYVVLYSAALAPLKQMFEGIVGSEKLELLKRGESVSLNNGWYLKKPFFDTLDETVPYDVMDKIKVPILIVHGDSDQTVPLEVALRGYEIIKGLNDKNKLHIVKGGDHVFSLKEHTLEVIKETVDWLNSLDL</Hsp_hseq>
+      <Hsp_midline>MIKPV+F + G+Q++G+LHVPD+L  D++APAIAMFHGFTG+KSEAHR FV +AR+LC  GFVVLRFDFRGSGDSDG+FEDMTVPGEV DA +++ FLS    VD + IGV+GLSMGGRVA+ILAS+D R+K+V+LYSAAL PL++ F   +  E +  L+ GE+V + NGWYLKK FF+T+D  VP DV+D+I+VP+LI+HGDSD  +PL+ AL+GYEII+ LNDKN+L+IV+GGDHVF+ +EHT+EVI+ T+DWL SL+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gb|MEM2238772.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM2428558.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM2448726.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM2686415.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MEM2238772</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>364.77</Hsp_bit-score>
+      <Hsp_score>935</Hsp_score>
+      <Hsp_evalue>4.19271e-124</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWL</Hsp_qseq>
+      <Hsp_hseq>MIKPVVFKNQNQELVGILHLPDDLKPEEKTPGVVMFHGFTGNKTEAHRLFVQVARKLCKSGFTVFRFDFRGSGDSDGEFEDMTLPGEVDDAEAALTFLIKQRRVDKRRVGVIGLSMGGRVATILASKDERVKFAILYSAALGPLRDRFLSHMSKDALERLNAGEAIEVSDGWYLRKSFFDTVDYVVPFEVMSKIKIPVLIIHGDRDLLVPLEEAEKGYEIIRGLNDKNELYIVKGGDHTFSKREHTLEVINKTLNWL</Hsp_hseq>
+      <Hsp_midline>MIKPV F ++ ++++G+LH+PDDL+ +++ P + MFHGFTGNK+EAHRLFV VAR LC  GF V RFDFRGSGDSDGEFEDMT+PGEV DA  ++ FL +   VD  R+GV+GLSMGGRVA ILASKD R+KF ILYSAAL PLR +FL  + K+++ RL  GEA+ V +GWYL+K FF+TVD +VP +V+ +I++PVLIIHGD D ++PL+ A KGYEIIR LNDKNELYIV+GGDH F++REHT+EVI +TL+WL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gb|MEM2303546.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MEM2303546</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>362.844</Hsp_bit-score>
+      <Hsp_score>930</Hsp_score>
+      <Hsp_evalue>2.41687e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWL</Hsp_qseq>
+      <Hsp_hseq>MIKPVVFKNQNQELVGILHLPDDLKPEEKTPGVVMFHGFTGNKTEAHRLFVQVARKLCKSGFTVFRFDFRGSGDSDGEFEDMTLPSEVDDAEAALTFLIKQRRVDKRRVGVIGLSMGGRVATILASKDERVKFAILYSAALGPLRDRFLSHMSKDALERLNAGEAIEVSDGWYLRKSFFDTVDYVVPFEVMSKIKIPVLIIHGDRDLLVPLEEAEKGYEIIRGLNDKNELYIVKGGDHTFSKREHTLEVINKTLNWL</Hsp_hseq>
+      <Hsp_midline>MIKPV F ++ ++++G+LH+PDDL+ +++ P + MFHGFTGNK+EAHRLFV VAR LC  GF V RFDFRGSGDSDGEFEDMT+P EV DA  ++ FL +   VD  R+GV+GLSMGGRVA ILASKD R+KF ILYSAAL PLR +FL  + K+++ RL  GEA+ V +GWYL+K FF+TVD +VP +V+ +I++PVLIIHGD D ++PL+ A KGYEIIR LNDKNELYIV+GGDH F++REHT+EVI +TL+WL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gb|MBS7614328.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>MBS7614328</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>367.466</Hsp_bit-score>
+      <Hsp_score>942</Hsp_score>
+      <Hsp_evalue>3.88517e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>MIKPVSFNNYRQQLIGILHVPDDLSPDQKAPAIAMFHGFTGHKSEAHRFFVQIARALCKAGFVVLRFDFRGSGDSDGEFEDMTVPGEVSDAEQALTFLSSLLEVDDKLIGVIGLSMGGRVASILASRDNRVKYVILYSAALAPLKQMFEGMVGSEKLELLKRGESVSLNNGWYLKKPFFDTLDETIPYGIMDKIKAPILIVHGDSDQTVPLEVALRGYEIIKGLNDKNKLHIVKGGDHVFSLKEHTLEVIKETVDWLNSLDL</Hsp_hseq>
+      <Hsp_midline>MIKPV+F +  +Q+IG+LHVPDDL  D++APAIAMFHGFTG+KSEAHR FV +AR+LC  GFVVLRFDFRGSGDSDGEFEDMTVPGEV DA +++ FLS L  VD + IGV+GLSMGGRVA+ILAS+D R+K+VILYSAAL PL++ F   +  E +  L+ GE+V + NGWYLKK FF+T+D  +P  ++D+I+ P+LI+HGDSD  +PL+ AL+GYEII+ LNDKN+L+IV+GGDHVF+ +EHT+EVI+ T+DWL SL+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gb|MBS7634418.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>MBS7634418</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>362.459</Hsp_bit-score>
+      <Hsp_score>929</Hsp_score>
+      <Hsp_evalue>4.89149e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>260</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSL</Hsp_qseq>
+      <Hsp_hseq>MIKPLAFKNQGQHLIGILHIPDEMKSGMKAPGILMLHGFTGNRTEAHRLFYHVARSLCDSGYVVLRFDFRGSGDSDGEFEDMTLPGEVSDAERALSFLMRHRCVDRERVGVIGLSMGGRVAAILTFLDRRVKFAALYSPALGPLRERFLSQASKEALEKLNAGKSIEIPGGWYLKKAFFDTVDYIVPLDIMGGIRVPILIVHGDKDEVIPLEEAKKGYELIKDLNEKNELYVVKDGDHTFSKREHTLEVIEKTLKWINPL</Hsp_hseq>
+      <Hsp_midline>MIKP+ F ++G+ +IG+LH+PD+++   +AP I M HGFTGN++EAHRLF HVARSLC+ G+VVLRFDFRGSGDSDGEFEDMT+PGEV DA R++ FL     VD ER+GV+GLSMGGRVAAIL   DRR+KF  LYS AL PLR +FL    KE++ +L  G+++ +  GWYLKK FF+TVD IVPLD++  IRVP+LI+HGD D VIPL+ A KGYE+I+DLN+KNELY+V+ GDH F++REHT+EVIE+TL W+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gb|MEM3546773.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM3604564.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM3678540.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM3763558.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM3791756.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MEM3546773</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>362.073</Hsp_bit-score>
+      <Hsp_score>928</Hsp_score>
+      <Hsp_evalue>6.26473e-123</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>164</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWL</Hsp_qseq>
+      <Hsp_hseq>MIKPVVFKNQNQELVGILHLPDDLKPEEKTPGVVMFHGFTGNKTEAHRLFVQVARKLCKSGFTVFRFDFRGSGDSDGEFEDMTLPGEVDDAEAALTFLIKQRRVDKRRVGVIGLSMGGRVATILASKDERVKFAILYSAALGPLRDRLLSHMSKDALERLNAGEAIEVSDGWYLRKSFFDTVDYVVPFEVMGKIKIPVLIIHGDRDLLVPLEEAEKGYEIIRGLNDKNELYIVKGGDHTFSKREHTLEVINKTLNWL</Hsp_hseq>
+      <Hsp_midline>MIKPV F ++ ++++G+LH+PDDL+ +++ P + MFHGFTGNK+EAHRLFV VAR LC  GF V RFDFRGSGDSDGEFEDMT+PGEV DA  ++ FL +   VD  R+GV+GLSMGGRVA ILASKD R+KF ILYSAAL PLR + L  + K+++ RL  GEA+ V +GWYL+K FF+TVD +VP +V+ +I++PVLIIHGD D ++PL+ A KGYEIIR LNDKNELYIV+GGDH F++REHT+EVI +TL+WL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gb|MCW4020894.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>MCW4020894</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>360.533</Hsp_bit-score>
+      <Hsp_score>924</Hsp_score>
+      <Hsp_evalue>2.30506e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>261</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLN</Hsp_qseq>
+      <Hsp_hseq>MIKPVTFTSQGQQLIGILHVPDELKKGEKAPGIAMFHGFSGNKTETHRLFVHVARALCEAGYVVLRFDFRGSGDSDGEFEDMTVSGELSDAEESLTFLTNLEGVDKDRLGVIGLSLGGRVAAILASKDERVKFAVLYSASLGPREKRFLERFGEGALEKLDAGEAVGLNTGWYLKKPFFETFDDPIPFDIMHKIKAPVLIVHSDGDEAVSIDEARKGYEIVKDLNSKNELHIVRGGSHTFRQKEHTSEVIEKTLEWLDSLD</Hsp_hseq>
+      <Hsp_midline>MIKPVTF S+G+Q+IG+LHVPD+L+  ++AP IAMFHGF+GNK+E HRLFVHVAR+LC  G+VVLRFDFRGSGDSDGEFEDMTV GE+ DA  S+ FL+ L  VD +R+GV+GLS+GGRVAAILASKD R+KF +LYSA+L P  ++FLE   + ++ +L+ GEAV +  GWYLKK FFET D  +P D++ +I+ PVLI+H D D  + +D A KGYEI++DLN KNEL+IVRGG H F ++EHT EVIE+TL+WL SL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gb|MEM2026929.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MEM2026929</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>360.147</Hsp_bit-score>
+      <Hsp_score>923</Hsp_score>
+      <Hsp_evalue>3.6663e-122</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>MIKLVSFMNKGQQIIGVLHKPDKIKPHEKVPGIVMFHGFTGNKSEAHRLFVHIARGLSSRGFMVLRFDFRGSGDSDGDFEDMTLPEEVSDAERAITFVLRQRNVDREKIGVIGLSMGGRVAAILASRDERIKFAVLYSPALGRLKERFLSLMGEEALRRLNCGEPIEVSSGWYLKKAFFETVDYIVPVEVMSNIRVPVLIIHGDRDEIIPVEESMKAYERIKGLNEKNELYIVKGGDHTFSKREHTLEVLNKTIEWLSSLNL</Hsp_hseq>
+      <Hsp_midline>MIK V+FM++G+QIIGVLH PD ++  ++ P I MFHGFTGNKSEAHRLFVH+AR L + GF+VLRFDFRGSGDSDG+FEDMT+P EV DA R+I F+     VD E+IGV+GLSMGGRVAAILAS+D RIKF +LYS AL  L+ +FL  + +E++RRL  GE + V +GWYLKK FFETVD IVP++V+  IRVPVLIIHGD D +IP++ ++K YE I+ LN+KNELYIV+GGDH F++REHT+EV+ +T++WL SLNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gb|MEM1607488.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM2029028.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM2150838.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM2479562.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM2538864.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MEM1607488</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>359.377</Hsp_bit-score>
+      <Hsp_score>921</Hsp_score>
+      <Hsp_evalue>1.12066e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>LIKLVSFMNKGQQIIGVLHKPDKIKPHEKVPGIVMFHGFTGNKSEAHRLFVHIARGLSSRGFMVLRFDFRGSGDSDGDFEDMTLPEEVSDAERAITFVLRQRNVDREKIGVIGLSMGGRVAAILASRDERIKFAVLYSPALGRLKERFLSLMGEEALRRLNCGEPIEVSSGWYLKKAFFETVDYIVPVEVMSNIRVPVLIIHGDRDEIIPVEESMKAYERIKGLNEKNELYIVKGGDHTFSKREHTLEVLNKTIEWLSSLNL</Hsp_hseq>
+      <Hsp_midline>+IK V+FM++G+QIIGVLH PD ++  ++ P I MFHGFTGNKSEAHRLFVH+AR L + GF+VLRFDFRGSGDSDG+FEDMT+P EV DA R+I F+     VD E+IGV+GLSMGGRVAAILAS+D RIKF +LYS AL  L+ +FL  + +E++RRL  GE + V +GWYLKK FFETVD IVP++V+  IRVPVLIIHGD D +IP++ ++K YE I+ LN+KNELYIV+GGDH F++REHT+EV+ +T++WL SLNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gb|MCX8171346.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>MCX8171346</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>358.607</Hsp_bit-score>
+      <Hsp_score>919</Hsp_score>
+      <Hsp_evalue>1.2631e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>MIKPVVFRNKGQQIIGVLHKPENIKPYERVPGIVMFHGFTGNKSEAHRLFVQIARGLSASGFTILRFDFRGSGDSDGDFEDITLPDEVSDAERAITFLLKQRNVDREKIGVIGLSMGGRVAAILASKDLRIKFAVLYSPALGSLRERLLSLMSKEALRRLDSGEPIEFSGGWYLKKAFFETIDYVVPLDVMEKIKVPILIIHGDKDEVIPVEESIKAYERVKGLNEKNELYIVKGGDHTFSKKEHTLEVLRKTVEWLNSLNL</Hsp_hseq>
+      <Hsp_midline>MIKPV F ++G+QIIGVLH P++++  +R P I MFHGFTGNKSEAHRLFV +AR L   GF +LRFDFRGSGDSDG+FED+T+P EV DA R+I FL +   VD E+IGV+GLSMGGRVAAILASKD RIKF +LYS AL  LR + L  + KE++RRL+ GE +    GWYLKK FFET+D +VPLDV+++I+VP+LIIHGD D VIP++ ++K YE ++ LN+KNELYIV+GGDH F+++EHT+EV+ +T++WL SLNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gb|MEM3815776.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MEM3815776</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>357.836</Hsp_bit-score>
+      <Hsp_score>917</Hsp_score>
+      <Hsp_evalue>4.12174e-121</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>LIKLASFMNKGQQIIGVLHKPDKIKPHEKVPGIVMFHGFTGNKSEAHRLFVHIARGLSSRGFMVLRFDFRGSGDSDGDFEDMTLPEEVSDAERAITFVLRQRNVDREKIGVIGLSMGGRVAAILASRDERIKFAVLYSPALGRLKERFLSLMGEEALRRLNCGEPIEVSSGWYLKKAFFETVDYIVPVEVMSNIRVPVLIIHGDRDEIIPVEESMKAYERIKGLNEKNELYIVKGGDHTFSKREHTLEVLNKTIEWLSSLNL</Hsp_hseq>
+      <Hsp_midline>+IK  +FM++G+QIIGVLH PD ++  ++ P I MFHGFTGNKSEAHRLFVH+AR L + GF+VLRFDFRGSGDSDG+FEDMT+P EV DA R+I F+     VD E+IGV+GLSMGGRVAAILAS+D RIKF +LYS AL  L+ +FL  + +E++RRL  GE + V +GWYLKK FFETVD IVP++V+  IRVPVLIIHGD D +IP++ ++K YE I+ LN+KNELYIV+GGDH F++REHT+EV+ +T++WL SLNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gb|MBL7118576.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>MBL7118576</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>356.681</Hsp_bit-score>
+      <Hsp_score>914</Hsp_score>
+      <Hsp_evalue>1.49171e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>166</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>268</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEK------ESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>LIKPVTFENQGQQLVGILHTPDVLEHGGKAPGVVMFHGFTGNKIENHRLFVHIARSLSDSGFVVLRFDFRGSGDSDGEFEDMTIPGEISDAEKALTFLMEQRGVNKEEVGVLGLSMGGRVAAILASRDKRVRFAVLYSAALSPLVSRLLSSTTKGTQEVAESMRMLVSGEAIQVRDGWYLKKSFFDTLDDTVPLDVMGKIKVPILIVHGDLDQVVPLSDSTKGFEIVKNLNEKNELYVIEGGDHVFTEREHTQEVIRKTRDWLASLGL</Hsp_hseq>
+      <Hsp_midline>+IKPVTF ++G+Q++G+LH PD L    +AP + MFHGFTGNK E HRLFVH+ARSL + GFVVLRFDFRGSGDSDGEFEDMT+PGE+ DA +++ FL E   V+ E +GVLGLSMGGRVAAILAS+D+R++F +LYSAAL+PL  + L    K      ES+R L  GEA+ V +GWYLKK FF+T+D  VPLDV+ +I+VP+LI+HGD D V+PL  + KG+EI+++LN+KNELY++ GGDHVFT REHT EVI +T DWL SL L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gb|MBS7607209.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeota archaeon] &gt;gb|MEM1530831.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM2306715.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM2375325.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM2443099.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MBS7607209</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>356.295</Hsp_bit-score>
+      <Hsp_score>913</Hsp_score>
+      <Hsp_evalue>1.71314e-120</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVH-VGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>MIRPVAFRNMNQQIIGILHTPDNIKPGEKTPGILMLHGFTGNKTEAHRLFVHVARSLSEYGFIVLRFDFRGSGDSDGEFEDMTLPGEVSDAERALTFLLRRRNIDRDRVGVIGLSMGGRVAAILASKDKRVKFAVLYSPALGPLRDRSLSFMSREKIERLNSGEAVEFFAEGWYIKKTFFETVDYIVPLDIMDSIRVPVLIVHGDRDPIIPVEEAIRAYEKIKGVNKKNELYIVRGGDHTFSKKEHTQEVIKKTLDWIRALSV</Hsp_hseq>
+      <Hsp_midline>MI+PV F +  +QIIG+LH PD+++  ++ P I M HGFTGNK+EAHRLFVHVARSL   GF+VLRFDFRGSGDSDGEFEDMT+PGEV DA R++ FL     +D +R+GV+GLSMGGRVAAILASKD+R+KF +LYS AL PLR + L  + +E I RL  GEAV     GWY+KK FFETVD IVPLD++D IRVPVLI+HGD D +IP++ A++ YE I+ +N KNELYIVRGGDH F+++EHT EVI++TLDW+R+L++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gb|MBS7611118.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeota archaeon] &gt;gb|MBS7612655.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeota archaeon] &gt;gb|MBS7617238.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>MBS7611118</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>353.599</Hsp_bit-score>
+      <Hsp_score>906</Hsp_score>
+      <Hsp_evalue>1.4547e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWL</Hsp_qseq>
+      <Hsp_hseq>MIKPVVFKNKSQELVGILHIPDNLKPEEKTPGIVMFHGFTGNKTEAHRLFVQVARSLCKSSFTVFRFDFRGSGDSDGEFEDMTLPGELDDAEAALTFLIRQKNVDEGRIGVIGLSMGGRVATILASKDERVKFAIFYSAALGPLRDRFLTHMDKEKLEKLNSGEAIEVSEGWYLRKSFFDTVDYVIPFKVMGKIKIPMLIIHGDRDLLIPLEEAEKGYEIIKSLNDKNELYVIKGGDHTFSKKEYTLEVISKTLSWL</Hsp_hseq>
+      <Hsp_midline>MIKPV F ++ ++++G+LH+PD+L+ +++ P I MFHGFTGNK+EAHRLFV VARSLC   F V RFDFRGSGDSDGEFEDMT+PGE+ DA  ++ FL     VD  RIGV+GLSMGGRVA ILASKD R+KF I YSAAL PLR +FL  ++KE + +L  GEA+ V  GWYL+K FF+TVD ++P  V+ +I++P+LIIHGD D +IPL+ A KGYEII+ LNDKNELY+++GGDH F+++E+T+EVI +TL WL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gb|MEM2848665.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MEM2848665</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>352.443</Hsp_bit-score>
+      <Hsp_score>903</Hsp_score>
+      <Hsp_evalue>3.53027e-119</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWL</Hsp_qseq>
+      <Hsp_hseq>MIKPVVFKNQNQELVGILHLPDDLKPDEKTPGIVMFHGFTGNKTEAHRLFVQVARKLCKSGFIVFRFDFRGSGDSDGEFEDMTLPSEVDDAEAALTFLIKQRGIDRRKVGVIGLSMGGRVATILASKDERVKFAILYSAALSPLRDRFLSHMSKDRLEKLNSGEAIEVSDGWYLRKSFFDTVDYVIPLEVMGKIKIPMLIIHGDRDLLIPLEEAEKGYSVIKGLNDKNELYVVKEGDHTFSKKEHTLEVVGKTLNWL</Hsp_hseq>
+      <Hsp_midline>MIKPV F ++ ++++G+LH+PDDL+ D++ P I MFHGFTGNK+EAHRLFV VAR LC  GF+V RFDFRGSGDSDGEFEDMT+P EV DA  ++ FL +   +D  ++GV+GLSMGGRVA ILASKD R+KF ILYSAAL+PLR +FL  + K+ + +L  GEA+ V +GWYL+K FF+TVD ++PL+V+ +I++P+LIIHGD D +IPL+ A KGY +I+ LNDKNELY+V+ GDH F+++EHT+EV+ +TL+WL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gb|MEM2740233.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MEM2740233</Hit_accession>
+  <Hit_len>261</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>345.51</Hsp_bit-score>
+      <Hsp_score>885</Hsp_score>
+      <Hsp_evalue>2.22508e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>165</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>257</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWL</Hsp_qseq>
+      <Hsp_hseq>MIKPVVFRSEGQCLVGILHTPSDVGCRGRAPGIVMLHGFTGNKTEAHRLFVHVARSLCNSGFIVLRFDFRGSGDSDGEFEDMTLPGEVSDAGEALSLLMRRRYIDRSRVGVLGLSMGGRVAAILASMDARIRFAILYSPALGPLRERMLSWMPREYMDRLDLGEAVEVSPGWYLKKRFFETVDYIVPSDVMKGIKAPILIIHGDKDQVIPVEEVKRYFDSIRGLDDRNELYIVKDGDHTFSKREHTKEVIDKTLEWL</Hsp_hseq>
+      <Hsp_midline>MIKPV F SEG+ ++G+LH P D+    RAP I M HGFTGNK+EAHRLFVHVARSLCN GF+VLRFDFRGSGDSDGEFEDMT+PGEV DA  ++  L    ++D  R+GVLGLSMGGRVAAILAS D RI+F ILYS AL PLR + L  + +E + RL++GEAV V  GWYLKK FFETVD IVP DV+  I+ P+LIIHGD D VIP++   + ++ IR L+D+NELYIV+ GDH F++REHT EVI++TL+WL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gb|MBS7641750.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeota archaeon] &gt;gb|MEM1559649.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM2165213.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM2323810.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon] &gt;gb|MEM2350633.1| alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MBS7641750</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>345.125</Hsp_bit-score>
+      <Hsp_score>884</Hsp_score>
+      <Hsp_evalue>2.74978e-116</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDL--RGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWL</Hsp_qseq>
+      <Hsp_hseq>MIRPVIFRNEGQCLVGILHIPDGLASRG-GRAPGIVMFHGFTGNKVEAHRLFIHVARRLCDSGFIVLRFDFRGSGDSDGEFEDMTIPGEVSDARRALTLLMRQRYVDKSRVGVLGLSMGGRVAAILASMDRRIGFVVLYSPALGPLRGRMLSWMPREYMDILDLGGAVEVSSGWYLKKRFFETVDYIVPSDVMKDIRAPILIVHGDKDQVIPLDEVKRCFDLVKDLDDRNELYIVSGGDHTFSKREHTKEVIDKTLEWL</Hsp_hseq>
+      <Hsp_midline>MI+PV F +EG+ ++G+LH+PD L  RG  RAP I MFHGFTGNK EAHRLF+HVAR LC+ GF+VLRFDFRGSGDSDGEFEDMT+PGEV DA R++  L    +VD  R+GVLGLSMGGRVAAILAS DRRI FV+LYS AL PLR + L  + +E +  L++G AV V +GWYLKK FFETVD IVP DV+  IR P+LI+HGD D VIPLD   + +++++DL+D+NELYIV GGDH F++REHT EVI++TL+WL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gb|MEM4461685.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MEM4461685</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>343.584</Hsp_bit-score>
+      <Hsp_score>880</Hsp_score>
+      <Hsp_evalue>1.05443e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>257</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>258</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>168</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDL--RGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWL</Hsp_qseq>
+      <Hsp_hseq>MIRPVIFRNEGQCLVGILHTPDGLASRG-GRAPGIVMFHGFTGNKVEAHRLFIHVARRLCDSGFIVLRFDFRGSGDSDGEFEDMTIPGEVSDARRALTLLMRQRYVDKSRVGVLGLSMGGRVAAILASMDRRIGFVVLYSPALGPLRERMLSWMPKEYMDILDLGGAVEVSPGWYLKKRFFETVDYIVPSDVMRDIRAPILIVHGDRDQVIPLDEVKRCFDLVKDLDDRNELYIVSGGDHTFSKREHTREVIDKTLEWL</Hsp_hseq>
+      <Hsp_midline>MI+PV F +EG+ ++G+LH PD L  RG  RAP I MFHGFTGNK EAHRLF+HVAR LC+ GF+VLRFDFRGSGDSDGEFEDMT+PGEV DA R++  L    +VD  R+GVLGLSMGGRVAAILAS DRRI FV+LYS AL PLR + L  + KE +  L++G AV V  GWYLKK FFETVD IVP DV+  IR P+LI+HGD D VIPLD   + +++++DL+D+NELYIV GGDH F++REHT EVI++TL+WL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gb|MCX8161494.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>MCX8161494</Hit_accession>
+  <Hit_len>264</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.428</Hsp_bit-score>
+      <Hsp_score>877</Hsp_score>
+      <Hsp_evalue>3.16114e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>263</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSL</Hsp_qseq>
+      <Hsp_hseq>LIKPIVFRNERQCLVGILHVPDDIAYRGKAPGIVMFHGFTGNKIEAHRLFVHVARSLCDSGFIVFRFDFRGSGDSDGDFEDMTLPGEVSDGRRALSLFMRYRYLDRSRVGVLGLSMGGRVAAILASMDARIRFAILYSPALGPLRGRMLSWMPREQIDRLDLGEAVEVSPGWYLKKRFFETVDYIVPSDVMREIKAPILIVHGDRDQVIPVEEVRRYFDSVRDLDSRNELYIVRGGDHTFSKREHTREVINKTLEWLRKV</Hsp_hseq>
+      <Hsp_midline>+IKP+ F +E + ++G+LHVPDD+    +AP I MFHGFTGNK EAHRLFVHVARSLC+ GF+V RFDFRGSGDSDG+FEDMT+PGEV D  R++       ++D  R+GVLGLSMGGRVAAILAS D RI+F ILYS AL PLR + L  + +E I RL++GEAV V  GWYLKK FFETVD IVP DV+  I+ P+LI+HGD D VIP++   + ++ +RDL+ +NELYIVRGGDH F++REHT EVI +TL+WLR +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gb|MCS7112756.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeota archaeon] &gt;gb|MDW8061382.1| alpha/beta fold hydrolase [Nitrososphaerota archaeon]</Hit_def>
+  <Hit_accession>MCS7112756</Hit_accession>
+  <Hit_len>263</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.428</Hsp_bit-score>
+      <Hsp_score>877</Hsp_score>
+      <Hsp_evalue>3.59807e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSL</Hsp_qseq>
+      <Hsp_hseq>LIKPIVFRNERQCLVGILHVPDDIAYRGKAPGIVMFHGFTGNKIEAHRLFVHVARSLCDSGFIVFRFDFRGSGDSDGDFEDMTLPGEVSDGRRALSLFMRYRYLDRSRVGVLGLSMGGRVAAILASMDARIRFAILYSPALGPLRGRMLSWMPREQIDRLDLGEAVEVSPGWYLKKRFFETVDYIVPSDVMREIKAPILIVHGDRDQVIPVEEVRRYFDSVRDLDSRNELYIVRGGDHTFSKREHTREVINKTLEWLRKV</Hsp_hseq>
+      <Hsp_midline>+IKP+ F +E + ++G+LHVPDD+    +AP I MFHGFTGNK EAHRLFVHVARSLC+ GF+V RFDFRGSGDSDG+FEDMT+PGEV D  R++       ++D  R+GVLGLSMGGRVAAILAS D RI+F ILYS AL PLR + L  + +E I RL++GEAV V  GWYLKK FFETVD IVP DV+  I+ P+LI+HGD D VIP++   + ++ +RDL+ +NELYIVRGGDH F++REHT EVI +TL+WLR +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gb|MEM3826458.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Nitrososphaeria archaeon]</Hit_def>
+  <Hit_accession>MEM3826458</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>342.043</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>5.42329e-115</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAV-----HVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSL</Hsp_qseq>
+      <Hsp_hseq>MIKPVIFENENQKLVGIIHLPENLETLKKVPGIVMFHGFTGNKVEAHRLFVQVARSLCKAGFMVLRFDFRGSGDSDGEFEDITVENEVSDAEKALTFFLRQRKVDREKVGVIGLSMGGRVATILASKDNRIKFVVLYSAAFGPLHNRFLNFIKPEQWHILNSGESIEIKDPNVSSGWYLKKKFFETIDYIIPFEVMNKIKVPMLIIHGDQDQTISVEEAKKGYEIIKDLNNKNELYIISGGDHTFSQKEHTREVIEKTLKWLNTI</Hsp_hseq>
+      <Hsp_midline>MIKPV F +E ++++G++H+P++L   K+ P I MFHGFTGNK EAHRLFV VARSLC  GF+VLRFDFRGSGDSDGEFED+TV  EV DA +++ F      VD E++GV+GLSMGGRVA ILASKD RIKFV+LYSAA  PL  +FL  ++ E    L  GE++     +V +GWYLKK FFET+D I+P +V+++I+VP+LIIHGD D  I ++ A KGYEII+DLN+KNELYI+ GGDH F+++EHT EVIE+TL WL ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gb|MEM3871890.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Nitrososphaeria archaeon]</Hit_def>
+  <Hit_accession>MEM3871890</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>339.347</Hsp_bit-score>
+      <Hsp_score>869</Hsp_score>
+      <Hsp_evalue>6.86461e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>265</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAV-----HVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSL</Hsp_qseq>
+      <Hsp_hseq>MIKSVIFENENQKLVGIIHLPENLETLKKVPGIVMFHGFTGNKVEAHRLFVQVARSLCKAGFMVLRFDFRGSGDSDGEFEDITVENEVSDAEKALTFFLRQRKVDREKVGVIGLSMGGRVATILASKDNRIKFVVLYSAAFGPLHNRFLNFIKPEQWHILNSGESIEIKDPNVSSGWYLKKKFFETIDYIIPFEVMNKIKVPMLIIHGDQDQTISVEEAKKGYEIIKDLNNKNELYIISGGDHTFSQKEHTREVIEKTLKWLNTI</Hsp_hseq>
+      <Hsp_midline>MIK V F +E ++++G++H+P++L   K+ P I MFHGFTGNK EAHRLFV VARSLC  GF+VLRFDFRGSGDSDGEFED+TV  EV DA +++ F      VD E++GV+GLSMGGRVA ILASKD RIKFV+LYSAA  PL  +FL  ++ E    L  GE++     +V +GWYLKK FFET+D I+P +V+++I+VP+LIIHGD D  I ++ A KGYEII+DLN+KNELYI+ GGDH F+++EHT EVIE+TL WL ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gb|MDH5794491.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>MDH5794491</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>339.732</Hsp_bit-score>
+      <Hsp_score>870</Hsp_score>
+      <Hsp_evalue>8.97988e-114</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>167</Hsp_identity>
+      <Hsp_positive>215</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>262</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>VIKPVTFRNQGQQLVGILHVPDWLQNGEKVPGIVMFHGFTGHKSETHRLFVHVSRALCDSGFVVLRFDFRGSGDSDGDFDDMTVPGEVNDAERAVTFLGDQEFIDRSRIGVVGLSMGGRVAAILASKDRRVKFAVLYSAALGPLKERFLSQTDEKTSRKLDAGEAISVGNGWYLKKPFFDTIDDPVPLDVMGEIGVPVLLIHGDMDQVVPIEDSRKGYEVVANLNEKNELYTVEGGDHTFSERRHTREVIVKTLEWVESPGL</Hsp_hseq>
+      <Hsp_midline>+IKPVTF ++G+Q++G+LHVPD L+  ++ P I MFHGFTG+KSE HRLFVHV+R+LC+ GFVVLRFDFRGSGDSDG+F+DMTVPGEV DA R++ FL +  F+D  RIGV+GLSMGGRVAAILASKDRR+KF +LYSAAL PL+ +FL   ++++ R+L+ GEA+ VGNGWYLKK FF+T+D  VPLDV+  I VPVL+IHGD D V+P++ + KGYE++ +LN+KNELY V GGDH F+ R HT EVI +TL+W+ S  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gb|UCD72892.1|</Hit_id>
+  <Hit_def>MAG: alpha/beta fold hydrolase [Candidatus Bathyarchaeota archaeon]</Hit_def>
+  <Hit_accession>UCD72892</Hit_accession>
+  <Hit_len>273</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>325.865</Hsp_bit-score>
+      <Hsp_score>834</Hsp_score>
+      <Hsp_evalue>1.46631e-108</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLE-----KESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>MIKPVIFENQGERLVGILHVPDKLKRGGKAPGVVMLHGLTGNKIENHRLFVLAARDLCDLGFVVLRFDFRGSGDSDGDFEDMTIPGEISDAEKALTFLMEQRWVNRKAVGILGLSMGGRVAAVLSSRDHRVKFVILCSANFDQLLPRLLSGIGGYIPLKGMEEVLNSGEAVKIKDGWYLKNSFFKTLDETVPLDVIDKIKVPILIVHGEMDQVIPLDEAVRGFEIVKNLNKKNELYVIEGGGHVFTDREHTHQVIRKTRDWLVSLNL</Hsp_hseq>
+      <Hsp_midline>MIKPV F ++GE+++G+LHVPD L+   +AP + M HG TGNK E HRLFV  AR LC+ GFVVLRFDFRGSGDSDG+FEDMT+PGE+ DA +++ FL E  +V+ + +G+LGLSMGGRVAA+L+S+D R+KFVIL SA    L  + L G+      K     L  GEAV + +GWYLK  FF+T+D  VPLDV+D+I+VP+LI+HG+ D VIPLD A++G+EI+++LN KNELY++ GG HVFT REHT +VI +T DWL SLNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gb|MEM3561484.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Nitrososphaerota archaeon]</Hit_def>
+  <Hit_accession>MEM3561484</Hit_accession>
+  <Hit_len>239</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.138</Hsp_bit-score>
+      <Hsp_score>775</Hsp_score>
+      <Hsp_evalue>4.23258e-100</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>260</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>238</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>237</Hsp_align-len>
+      <Hsp_qseq>RAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAV-----HVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSL</Hsp_qseq>
+      <Hsp_hseq>KVPGIVMFHGFTGNKVEAHRLFVQVARSLCKAGFMVLRFDFRGSGDSDGEFEDITVENEVSDAEKALTFFLRQRKVDREKVGVIGLSMGGRVATILASKDNRIKFAVLYSAAFGPLHNRFLNFIKPEQWHILNSGGSIEIKDPNVSSGWYLKKKFFETIDYIIPFEVMNKIKVPMLIIHGDQDQTISVEETKKGYEIIKDLNNKNEPYIIRGGDHTFSQKEHTGEVIEKTLIWLNTI</Hsp_hseq>
+      <Hsp_midline>+ P I MFHGFTGNK EAHRLFV VARSLC  GF+VLRFDFRGSGDSDGEFED+TV  EV DA +++ F      VD E++GV+GLSMGGRVA ILASKD RIKF +LYSAA  PL  +FL  ++ E    L  G ++     +V +GWYLKK FFET+D I+P +V+++I+VP+LIIHGD D  I ++   KGYEII+DLN+KNE YI+RGGDH F+++EHT EVIE+TL WL ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gb|MEM2130852.1|</Hit_id>
+  <Hit_def>prolyl oligopeptidase family serine peptidase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MEM2130852</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.684</Hsp_bit-score>
+      <Hsp_score>657</Hsp_score>
+      <Hsp_evalue>5.14383e-81</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>121</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>190</Hsp_align-len>
+      <Hsp_qseq>GDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>GDSDGDFEDMTVPGEVSDAEQALTFLSSLPEVDDKLIGVIGLSMGGRVASILASKDNRVKYVVLYSAALAPLKQMFEGMVRSEKLELLKRGESVSLNNGWYLKKPFFDTLDETVPYDVMDKIKAPVLIVHGDSDQTVPLKVALRGYEIIKGLNDKNKLHIVKGGDHVFTLKEHTAEVIKETVDWLKSLDL</Hsp_hseq>
+      <Hsp_midline>GDSDG+FEDMTVPGEV DA +++ FLS L  VD + IGV+GLSMGGRVA+ILASKD R+K+V+LYSAAL PL++ F   +  E +  L+ GE+V + NGWYLKK FF+T+D  VP DV+D+I+ PVLI+HGDSD  +PL  AL+GYEII+ LNDKN+L+IV+GGDHVFT +EHT EVI+ T+DWL+SL+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gb|MEM2399294.1|</Hit_id>
+  <Hit_def>YqiA/YcfP family alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MEM2399294</Hit_accession>
+  <Hit_len>189</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.054</Hsp_bit-score>
+      <Hsp_score>632</Hsp_score>
+      <Hsp_evalue>4.43985e-79</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>188</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>SDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>SDGDFEDMTLPEEVSDAERAITFVLRQRNVDREKIGVIGLSMGGRVAAILASRDERIKFAVLYSPALGRLKERFISLMGEEALRRLNCGEPIEVSSGWYLKKAFFETVDYIVPVEVMSNIRVPVLIIHGDRDEIIPVEESMKAYERIKGLNEKNELYIVKGGDHTFSKREHTLEVLNKTIEWLSSLNL</Hsp_hseq>
+      <Hsp_midline>SDG+FEDMT+P EV DA R+I F+     VD E+IGV+GLSMGGRVAAILAS+D RIKF +LYS AL  L+ +F+  + +E++RRL  GE + V +GWYLKK FFETVD IVP++V+  IRVPVLIIHGD D +IP++ ++K YE I+ LN+KNELYIV+GGDH F++REHT+EV+ +T++WL SLNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gb|MEM2322757.1|</Hit_id>
+  <Hit_def>YqiA/YcfP family alpha/beta fold hydrolase [Candidatus Bathyarchaeia archaeon]</Hit_def>
+  <Hit_accession>MEM2322757</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>215.698</Hsp_bit-score>
+      <Hsp_score>548</Hsp_score>
+      <Hsp_evalue>9.65929e-67</Hsp_evalue>
+      <Hsp_query-from>107</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>156</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>99</Hsp_identity>
+      <Hsp_positive>129</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>ERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRSLNL</Hsp_qseq>
+      <Hsp_hseq>EKIGVIGLSMGGRVAAILASRDERIKFAVLYSPALGRLKERFLSLMGEEALRRLNCGEPIEVSSGWYLKKAFFETVDYIVPVEVMSNIRVPVLIIHGDRDEIIPVEESMKAYERIKGLNEKNELYIVKGGDHTFSKREHTLEVLNKTIEWLSSLNL</Hsp_hseq>
+      <Hsp_midline>E+IGV+GLSMGGRVAAILAS+D RIKF +LYS AL  L+ +FL  + +E++RRL  GE + V +GWYLKK FFETVD IVP++V+  IRVPVLIIHGD D +IP++ ++K YE I+ LN+KNELYIV+GGDH F++REHT+EV+ +T++WL SLNL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>tpg|HHV94301.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Bacillota bacterium]</Hit_def>
+  <Hit_accession>HHV94301</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.468</Hsp_bit-score>
+      <Hsp_score>550</Hsp_score>
+      <Hsp_evalue>8.18469e-66</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRS</Hsp_qseq>
+      <Hsp_hseq>MEKPVTLISQGEQMVGMLHLPD---GKGPFPAVAIYHGFTGTKVEPHRIFVKMSRALVQKGIAAVRFDFRGSGDSEGDFADMTVSGEIADAVRVLDFLQDLSEVDGQRLGVLGLSMGGAVAASVAGLDKRVKCLALWAAV---AKFDIFERQEELLGQAREQGYADVGGN--LLKYSFYEDARKQDPLALVARFPGPALIVHGDADPTVPVEHADLYYSAV---NGEKEKFIVPGADHTFNRHDWEKAVIDKTADWFRS</Hsp_hseq>
+      <Hsp_midline>M KPVT +S+GEQ++G+LH+PD   G    PA+A++HGFTG K E HR+FV ++R+L   G   +RFDFRGSGDS+G+F DMTV GE+ DA R +DFL +L+ VD +R+GVLGLSMGG VAA +A  D+R+K + L++A     +    E  E+   +  E G A   GN   LK  F+E      PL ++ R   P LI+HGD+D  +P++ A   Y  +   N + E +IV G DH F R +    VI++T DW RS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gb|MCZ6677402.1|</Hit_id>
+  <Hit_def>alpha/beta fold hydrolase [Candidatus Poribacteria bacterium]</Hit_def>
+  <Hit_accession>MCZ6677402</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.157</Hsp_bit-score>
+      <Hsp_score>544</Hsp_score>
+      <Hsp_evalue>9.42232e-65</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLR</Hsp_qseq>
+      <Hsp_hseq>MEKPIVFYNHGQQLVGMVHTPDNVA--SPAPAVAFFHGFTGTKVEPHRIFVKTARRLASLGFYALRFDFRGCGDSEGEFSEMTIGGEISDALKSLDVLSEMEGVDAERIGVLGLSMGGCVAASVSGLDARVKSAVLW-APLSDNPPDAVHALLTGYAHRPNLDEDFADYNGNLIGKAFFEELPQIQPSQRIQQFSGPLLIIHGDADETVPVTHGQRYYELMKDRAALTEIEIISQADHTFNAKAWEDSVITRSVDWFQ</Hsp_hseq>
+      <Hsp_midline>M KP+ F + G+Q++G++H PD++     APA+A FHGFTG K E HR+FV  AR L + GF  LRFDFRG GDS+GEF +MT+ GE+ DA +S+D LSE+  VD+ERIGVLGLSMGG VAA ++  D R+K  +L+ A L+      +  L      R  + E     NG  + K FFE +  I P   + +   P+LIIHGD+D  +P+    + YE+++D     E+ I+   DH F  +     VI R++DW +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gb|MGI6566795.1|</Hit_id>
+  <Hit_def>alpha/beta hydrolase [Limnochordia bacterium] &gt;gb|NLJ67834.1| alpha/beta fold hydrolase [Bacillota bacterium]</Hit_def>
+  <Hit_accession>MGI6566795</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>211.846</Hsp_bit-score>
+      <Hsp_score>538</Hsp_score>
+      <Hsp_evalue>5.31633e-64</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>259</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>MIKPVTFMSEGEQIIGVLHVPDDLRGDKRAPAIAMFHGFTGNKSEAHRLFVHVARSLCNDGFVVLRFDFRGSGDSDGEFEDMTVPGEVCDASRSIDFLSELNFVDSERIGVLGLSMGGRVAAILASKDRRIKFVILYSAALTPLRRKFLEGLEKESIRRLEMGEAVHVGNGWYLKKGFFETVDSIVPLDVLDRIRVPVLIIHGDSDSVIPLDGALKGYEIIRDLNDKNELYIVRGGDHVFTRREHTIEVIERTLDWLRS</Hsp_qseq>
+      <Hsp_hseq>MEKPVTLISQGEQMVGMLHLPE---GNGPFPAVAIYHGFTGTKVEPHRIFVKMSRALAREGVAAVRFDFRGSGDSEGDFADMTVSGEIQDAIRVLDFLQEQPQIDGDRLGILGLSMGGAVAASVAGLDRRVKCLALWAAVAV---FDLFEGEEGLLRQAREQGYADIGGN--VLNYSFYEDARKQDPLKLAAGFKGPALIVHGDADPTVPVEHADLYYEAV---GGEKEKFIVAGADHTFNRHEWEKAVIDKTADWFRS</Hsp_hseq>
+      <Hsp_midline>M KPVT +S+GEQ++G+LH+P+   G+   PA+A++HGFTG K E HR+FV ++R+L  +G   +RFDFRGSGDS+G+F DMTV GE+ DA R +DFL E   +D +R+G+LGLSMGG VAA +A  DRR+K + L++A          EG E    +  E G A   GN   L   F+E      PL +    + P LI+HGD+D  +P++ A   YE +     + E +IV G DH F R E    VI++T DW RS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>992672285</Statistics_db-num>
+      <Statistics_db-len>377385951225</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
