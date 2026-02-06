@@ -128,6 +128,8 @@ Further experimental validation is required to confirm PET-degrading activity.
 7.ProtParam (Biopython)	Physicochemical analysis
 8.NCBI Protein Database	Sequence retrieval
 
+Author: Namratha H
+Submitting Individually
 
 
 
