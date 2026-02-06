@@ -119,16 +119,18 @@ Further experimental validation is required to confirm PET-degrading activity.
 
 
 # Tools and Software Used
-1.Tool / Software	Purpose
-2.Python 3.14	Programming environment
-3.Biopython	Sequence handling and analysis
-4.NCBI BLASTp	Homology and functional inference
-5.InterProScan	Domain and motif identification
-6.AlphaFold	Protein structure prediction
-7.ProtParam (Biopython)	Physicochemical analysis
-8.NCBI Protein Database	Sequence retrieval
+1.Tool / Software	Purpose: Python 3.14	Programming environment
+
+2.Biopython	Sequence handling and analysis:BLASTp	Homology and functional inference
+
+3.InterProScan	Domain and motif identification
+
+4.ProtParam (Biopython)	Physicochemical analysis
+
+5.NCBI Protein Database	Sequence retrieval
 
 Author: Namratha H
+
 Submitting Individually
 
 
